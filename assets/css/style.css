@@ -66,6 +66,11 @@ hr {
     margin-right: 10px;
 }
 
+img {
+    float: left;
+    margin: 10px;
+}
+
 .main-content {
     background-color: #ffffff;
     border: 3px solid #dddddd;
@@ -80,11 +85,13 @@ hr {
 .portfolio-content {
     background-color: #ffffff;
     border: 3px solid #dddddd;
+    padding: 10px;
     margin-top: 10px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
     height: 580px;
+    line-height: 1.6;
 }
 
 .portfolio-container {
@@ -112,13 +119,44 @@ hr {
     text-decoration: none;
 }
 
-img {
-    float: left;
-    margin: 10px;
+.contact-form {
+    width: 100%;
+    max-width: 960px;
+}
+
+.txtb { 
+    margin: 0px 20px 10px 20px;
+}
+
+.txtb input {
+    width: 100%;
+    font-size: medium;
+}
+
+.txtb textarea {
+    width: 100%;
+    height: 125px;
+}
+
+.btn {
+    display: block;
+    background: #4aaaa5;
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
 }
 
 footer {
     clear: both;
+    /* This makes the footer sticky, but I don't like it. */
+    /*position: fixed;
+    bottom: 0px;
+    width: 100%;
+     */
     background-color: #4aaaa5;
     text-align: center;
     color: #ffffff;
