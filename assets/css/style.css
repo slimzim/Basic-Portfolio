@@ -13,8 +13,9 @@ header {
 }
 
 #headermargins {
-    margin-left: 10.5%;
-    margin-right: 10.5%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header::after {
@@ -34,6 +35,7 @@ header::after {
     text-align: center;
     background-color: #4aaaa5;
     float: left;
+    margin-left: -12px;
 }
 
 nav ul {
@@ -41,6 +43,7 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-right: -28px;
 }
 
 nav li {
@@ -161,8 +164,8 @@ img {
 
 footer {
     clear: both;
-    /* position: fixed;
-    bottom: 0px; */
+    position: fixed;
+    bottom: 0px;
     width: 100%;    
     background-color: #4aaaa5;
     text-align: center;
